@@ -80,6 +80,7 @@ public class SynthesizerActivity extends AppCompatActivity implements MediaPlaye
         button16 = (Button) findViewById(R.id.highgButton);
         button17 = (Button) findViewById(R.id.twinkle);
         button18 = (Button) findViewById(R.id.challenge9);
+        button19 = (Button) findViewById(R.id.Sequence);
 
         mpE = MediaPlayer.create(this, R.raw.scalee);
         mpF = MediaPlayer.create(this, R.raw.scalef);
