@@ -18,7 +18,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="76dp" />
 
     <Button
         android:id="@+id/eButton"
@@ -38,7 +40,8 @@
         android:layout_marginTop="19dp"
         android:onClick="onButton2Click"
         android:text="@string/button2"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignParentLeft="true" />
 
     <Button
         android:id="@+id/aButton"
@@ -49,7 +52,9 @@
         android:layout_toEndOf="@+id/eButton"
         android:onClick="onButton3Click"
         android:text="@string/button3"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/eButton" />
 
     <Button
         android:id="@+id/bButton"
@@ -60,7 +65,8 @@
         android:layout_toEndOf="@+id/fButton"
         android:onClick="onButton4Click"
         android:text="@string/button4"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_toRightOf="@+id/fButton" />
 
     <Button
         android:id="@+id/bbButton"
@@ -70,7 +76,9 @@
         android:layout_alignEnd="@+id/textView"
         android:onClick="onButton5Click"
         android:layout_marginEnd="13dp"
-        android:text="@string/button5" />
+        android:text="@string/button5"
+        android:layout_alignRight="@+id/textView"
+        android:layout_marginRight="13dp" />
 
     <Button
         android:id="@+id/cButton"
@@ -79,7 +87,8 @@
         android:layout_alignTop="@+id/fButton"
         android:layout_toEndOf="@+id/aButton"
         android:onClick="onButton6Click"
-        android:text="@string/button6" />
+        android:text="@string/button6"
+        android:layout_toRightOf="@+id/aButton" />
 
     <Button
         android:id="@+id/csButton"
@@ -89,7 +98,8 @@
         android:layout_alignBottom="@+id/cButton"
         android:layout_alignParentEnd="true"
         android:onClick="onButton7Click"
-        android:text="@string/button7" />
+        android:text="@string/button7"
+        android:layout_alignParentRight="true" />
 
     <Button
         android:id="@+id/dButton"
@@ -99,7 +109,8 @@
         android:layout_below="@+id/bButton"
         android:layout_marginTop="14dp"
         android:onClick="onButton8Click"
-        android:text="@string/button8" />
+        android:text="@string/button8"
+        android:layout_alignParentLeft="true" />
 
     <Button
         android:id="@+id/dsButton"
@@ -109,7 +120,8 @@
         android:layout_alignBottom="@+id/dButton"
         android:layout_toStartOf="@+id/cButton"
         android:onClick="onButton9Click"
-        android:text="@string/button9" />
+        android:text="@string/button9"
+        android:layout_toLeftOf="@+id/cButton" />
 
     <Button
         android:id="@+id/fsButton"
@@ -119,7 +131,8 @@
         android:layout_alignBottom="@+id/dsButton"
         android:layout_toEndOf="@+id/dsButton"
         android:onClick="onButton10Click"
-        android:text="@string/button10" />
+        android:text="@string/button10"
+        android:layout_toRightOf="@+id/dsButton" />
 
     <Button
         android:id="@+id/gButton"
@@ -129,7 +142,8 @@
         android:layout_alignBottom="@+id/fsButton"
         android:layout_toEndOf="@+id/fsButton"
         android:onClick="onButton11Click"
-        android:text="@string/button11" />
+        android:text="@string/button11"
+        android:layout_toRightOf="@+id/fsButton" />
 
     <Button
         android:id="@+id/gsButton"
@@ -138,7 +152,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/textView"
         android:onClick="onButton12Click"
-        android:text="@string/button12" />
+        android:text="@string/button12"
+        android:layout_alignParentLeft="true" />
 
     <Button
         android:id="@+id/higheButton"
@@ -148,7 +163,8 @@
         android:layout_alignBottom="@+id/gsButton"
         android:layout_alignStart="@+id/aButton"
         android:onClick="onButton13Click"
-        android:text="@string/button13" />
+        android:text="@string/button13"
+        android:layout_alignLeft="@+id/aButton" />
 
     <Button
         android:id="@+id/highfButton"
@@ -157,7 +173,8 @@
         android:layout_alignStart="@+id/textView"
         android:layout_alignTop="@+id/textView"
         android:onClick="onButton14Click"
-        android:text="@string/button14" />
+        android:text="@string/button14"
+        android:layout_alignLeft="@+id/textView" />
 
     <Button
         android:id="@+id/highfsButton"
@@ -166,7 +183,8 @@
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
         android:onClick="onButton15Click"
-        android:text="@string/button15" />
+        android:text="@string/button15"
+        android:layout_alignParentLeft="true" />
 
     <Button
         android:id="@+id/highgButton"
@@ -175,25 +193,37 @@
         android:layout_alignTop="@+id/highfsButton"
         android:layout_toEndOf="@+id/highfsButton"
         android:onClick="onButton16Click"
-        android:text="@string/button16" />
+        android:text="@string/button16"
+        android:layout_toRightOf="@+id/highfsButton" />
 
     <Button
         android:id="@+id/twinkle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/highgButton"
-        android:layout_below="@+id/highfsButton"
-        android:layout_marginTop="82dp"
+        android:layout_alignEnd="@+id/higheButton"
+        android:layout_alignRight="@+id/higheButton"
+        android:layout_below="@+id/Sequence"
         android:text="@string/button17" />
-    
-        <Button
+
+    <Button
         android:id="@+id/Sequence"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/highgButton"
+        android:layout_alignEnd="@+id/higheButton"
+        android:layout_alignRight="@+id/higheButton"
         android:layout_below="@+id/highfsButton"
-        android:layout_marginTop="82dp"
+        android:layout_marginTop="34dp"
         android:text="@string/button19" />
+
+    <Button
+        android:id="@+id/challenge9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/twinkle"
+        android:layout_toLeftOf="@+id/highfButton"
+        android:layout_toStartOf="@+id/highfButton"
+        android:text="@string/button18" />
 
 
 </RelativeLayout>
+
