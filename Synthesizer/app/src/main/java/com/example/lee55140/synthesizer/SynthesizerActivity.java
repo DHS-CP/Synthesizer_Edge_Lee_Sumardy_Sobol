@@ -31,6 +31,7 @@ public class SynthesizerActivity extends AppCompatActivity implements MediaPlaye
     private Button button15;
     private Button button16;
     private Button button17;
+    private Button button18;
     private MediaPlayer mpE;
     private MediaPlayer mpF;
     private MediaPlayer mpA;
@@ -48,6 +49,7 @@ public class SynthesizerActivity extends AppCompatActivity implements MediaPlaye
     private MediaPlayer mpHighFS;
     private MediaPlayer mpHighG;
     private MediaPlayer mChallenge5;
+    private MediaPlayer challenge9;
     private Button button19;
 
 
@@ -77,6 +79,7 @@ public class SynthesizerActivity extends AppCompatActivity implements MediaPlaye
         button15 = (Button) findViewById(R.id.highfsButton);
         button16 = (Button) findViewById(R.id.highgButton);
         button17 = (Button) findViewById(R.id.twinkle);
+        button18 = (Button) findViewById(R.id.challenge9);
 
         mpE = MediaPlayer.create(this, R.raw.scalee);
         mpF = MediaPlayer.create(this, R.raw.scalef);
@@ -185,6 +188,190 @@ public class SynthesizerActivity extends AppCompatActivity implements MediaPlaye
                 }
             }
         });
+        button18.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Log.e("SynthesizerActivity", "Challenge Twinkle Twinkle Little Star Line 2");
+        try {
+            //cameron's code start
+            mpA.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.pause();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.pause();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighFS.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighFS.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighFS.start();
+
+            delayPlaying(WHOLE_NOTE);
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.pause();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpD.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpD.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpD.start();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.start();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpB.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpB.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpB.start();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.pause();
+            //cameron's code end
+
+
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpHighE.pause();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpHighE.pause();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpD.start();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpD.pause();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpD.start();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpD.pause();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.pause();
+
+            delayPlaying(WHOLE_NOTE / 2);
+            mpB.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpB.pause();
+
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpHighE.pause();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpHighE.pause();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpD.start();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpD.pause();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpD.start();
+            delayPlaying(WHOLE_NOTE / 2);
+            mpD.pause();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.pause();
+
+            delayPlaying(WHOLE_NOTE / 2);
+            mpB.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpB.pause();
+
+            //cameron code start
+            mpA.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.start();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.pause();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighFS.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighFS.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighFS.start();
+
+            delayPlaying(WHOLE_NOTE);
+            mpHighE.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpHighE.pause();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpD.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpD.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpD.start();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpCS.start();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpB.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpB.pause();
+            delayPlaying(WHOLE_NOTE/2);
+            mpB.start();
+
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.start();
+            delayPlaying(WHOLE_NOTE/2);
+            mpA.pause();
+            //cameron code stop
+
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
+        }
+    }
+});
+
     }
 
 
