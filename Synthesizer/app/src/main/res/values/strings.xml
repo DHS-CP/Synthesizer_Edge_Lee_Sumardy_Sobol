@@ -1,27 +1,22 @@
 <resources>
     <string name="app_name">Synthesizer</string>
-    <string name="button1">eButton</string>
-    <string name="button2">fButton</string>
-    <string name="button3">aButton</string>
-    <string name="button4">bButton</string>
-    <string name="button5">bbButton</string>
-    <string name="button6">cButton</string>
-    <string name="button7">csButton</string>
-    <string name="button8">dButton</string>
-    <string name="button9">dsButton</string>
-    <string name="button10">fsButton</string>
-    <string name="button11">gButton</string>
-    <string name="button12">gsButton</string>
-    <string name="button13">higheButton</string>
-    <string name="button14">highfButton</string>
-    <string name="button15">highfsButton</string>
-    <string name="button16">highgButton</string>
-    <string name="button17">twinkle</string>
-    <string name="button19">Sequence</string>
-    <string name="button18">Challenge 9</string>
-
-
-
-
-
+    <string name="mEButton">E</string>
+    <string name="mFButton">F</string>
+    <string name="mGButton">G</string>
+    <string name="mGSButton">G#</string>
+    <string name="mHEButton">high E</string>
+    <string name="mHFButton">high F</string>
+    <string name="mHGButton">high G</string>
+    <string name="mAButton">A</string>
+    <string name="mBButton">B</string>
+    <string name="mCButton">C</string>
+    <string name="mCSButton">C#</string>
+    <string name="mDButton">D</string>
+    <string name="mDSButton">D#</string>
+    <string name="mFSButton">F#</string>
+    <string name="mHFSButton">high F#</string>
+    <string name="mChallenge5">challenge 5</string>
+    <string name="mChallenge9">challenge 9</string>
+    <string name="mChallenge10">challenge 10</string>
+    <string name="mChallenge12">challenge 12</string>
 </resources>
